@@ -1,13 +1,23 @@
 # UploadPdfPreview
 
-To start your Phoenix server:
+A simple example showing how to generate live previews of different file types using 
+Phoenix LiveView's `uploads` feature.
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+In this example I use PDF and PDF.js to generate a preview of the uploaded PDF file.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Link to the writeup [here](https://www.thestackcanary.com/phoenix-liveuploads-pdf/)
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Demo
+
+![Demo](assets/demo.gif)
+
+## How to use
+
+  * Clone the repo
+  * Run `mix setup` to install dependencies
+  * Start your Postgres database
+  * Run `mix phx.server` to start the server
+  * Visit `http://localhost:4000` and upload a PDF file
 
 ## Learn more
 
